@@ -1,0 +1,25 @@
+@import "colors.css";
+
+* {
+  font-family: "RedHat Mono";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#waybar {
+  background-color: @surface_translucent;
+  color: @on_surface;
+  border-radius: 8px;
+}
+
+.horizontal {
+  padding: 0 8px;
+}
+
+#clock {
+  background-color: transparent;
+}
+
+#tray menu {
+  background-color: @surface;
+}

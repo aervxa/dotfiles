@@ -1,0 +1,31 @@
+// -*- mode: jsonc -*-
+{
+    "height": 30,
+    "spacing": 8, // Gaps between modules (4px)
+    "margin-top": 8,
+    "margin-right": 8,
+    "margin-bottom": 0,
+    "margin-left": 8,
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "tray"
+    ],
+    "hyprland/window": {
+        "format": "{class}"
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 12
+    },
+    "clock": {
+        "tooltip": true,
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "{:%I:%M %p}"
+    }
+}
