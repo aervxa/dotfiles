@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Directory of this script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 CONFIG="$HOME/.config"
 
 # Ensure destination exists
@@ -14,7 +17,7 @@ if [ -f "$CONFIG/hypr/hyprland/custom.conf" ]; then
 fi
 
 # Copy all folders and files from ./config to ~/.config
-cp -r ./config/* "$CONFIG"
+cp -r "$SCRIPT_DIR/config/"* "$CONFIG"
 
 # Remove new empty hypr custom file
 if [ -f "$CONFIG/hypr/hyprland/custom.conf.bak" ]; then
