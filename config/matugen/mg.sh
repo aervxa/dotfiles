@@ -8,4 +8,4 @@ if [ -z "$image" ]; then
 fi
 
 matugen image "$image"
-cp "$image" "$HOME/.config/matugen/current_wallpaper"
+cp "$image" "$HOME/.current_wallpaper"

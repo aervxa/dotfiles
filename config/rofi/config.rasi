@@ -42,7 +42,7 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/.config/matugen/current_wallpaper", height);
+    background-image:            url("$HOME/.current_wallpaper", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
@@ -113,7 +113,7 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-    
+
     spacing:                     10px;
     background-color:            transparent;
     text-color:                  @on-surface;
