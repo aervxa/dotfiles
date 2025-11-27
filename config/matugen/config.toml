@@ -68,3 +68,8 @@ output_path = '~/.config/zed/themes/matugen.json'
 [templates.yazi]
 input_path = './templates/yazi-theme.toml'
 output_path = '~/.config/yazi/theme.toml'
+
+[templates.spicetify]
+input_path = '~/.config/matugen/templates/spicetify-comfy.ini'
+output_path = '~/.config/spicetify/Themes/Comfy/color.ini'
+post_hook = 'sh ~/.config/matugen/hooks/spicetify.sh'
