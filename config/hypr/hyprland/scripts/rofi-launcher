@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# if rofi found, kill, else, start new drun (this is for toggling rofi with the same shortcut)
+pidof rofi && pkill -x rofi || rofi -show drun

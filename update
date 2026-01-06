@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Define the destination
+DOTFILES_CONFIG_DIR="$HOME/dotfiles/config"
+
+# List of folders to sync
+CONFIGS=(
+    "btop" "cava" "fcitx5" "fontconfig" "gazatu.xyz" 
+    "gtk-3.0" "gtk-4.0" "hypr" "kitty" "matugen" 
+    "qt5ct" "qt6ct" "rofi" "spicetify" "waybar" "wireplumber"
+)
+
+# Create the destination if it doesn't exist
+mkdir -p "$DOTFILES_CONFIG_DIR"
+
+echo "Updating dotfiles..."
+
+for folder in "${CONFIGS[@]}"; do
+    if [ -d "$HOME/.config/$folder" ]; then
+        echo "Syncing: $folder"
+        rsync -a --delete "$HOME/.config/$folder" "$DOTFILES_CONFIG_DIR/"
+    else
+        echo "Warning: ~/.config/$folder not found, skipping."
+    fi
+done
+
+echo "Done! You can now git add, commit, and push."

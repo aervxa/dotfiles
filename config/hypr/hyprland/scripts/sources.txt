@@ -1,0 +1,2 @@
+barify:             https://github.com/aervxa/barify/tree/patch-1 (fork of Arctize/barify)
+hyprgridnavigate:   https://github.com/aervxa/hyprgridnavigate
