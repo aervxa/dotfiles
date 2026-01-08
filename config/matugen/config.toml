@@ -56,11 +56,6 @@ post_hook = 'pkill -USR1 cava'
 input_path = './templates/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/midnight-discord.css'
 
-[templates.mako]
-input_path = './templates/mako'
-output_path = '~/.config/mako/mako-colors'
-post_hook = 'makoctl reload'
-
 [templates.zed]
 input_path = './templates/zed-colors.json'
 output_path = '~/.config/zed/themes/matugen.json'
