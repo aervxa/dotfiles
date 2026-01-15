@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+WORKSPACE=1
+
+# Open apps on first workspace for aesthetics + perf monitoring (missioncenter)
+hyprctl dispatch exec "[workspace $WORKSPACE; float; size 1088 704; move 768 96] missioncenter"
+hyprctl dispatch exec "[workspace $WORKSPACE; float; size 256 256; move 256 448] imv ~/.face"
+hyprctl dispatch exec "[workspace $WORKSPACE; float; size 384 192; move 128 128] kitty -o tab_bar_style=hidden sh -c 'pfetch;read'"
+hyprctl dispatch exec "[workspace $WORKSPACE; float; size 1024 192; move 832 832] kitty cava"
+hyprctl dispatch exec "[workspace $WORKSPACE; float; size 512 160; move 128 832] kitty"
