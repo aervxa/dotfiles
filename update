@@ -8,6 +8,7 @@ CONFIGS=(
     "btop" "cava" "fcitx5" "fontconfig" "gazatu.xyz" 
     "gtk-3.0" "gtk-4.0" "hypr" "kitty" "matugen" 
     "qt5ct" "qt6ct" "rofi" "spicetify" "waybar" "wireplumber"
+    "swaync"
 )
 
 # Create the destination if it doesn't exist
