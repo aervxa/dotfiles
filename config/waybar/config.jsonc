@@ -38,9 +38,9 @@
     "format-muted": "",
     "format-icons": ["", "", "", "", ""],
     "on-click": "pavucontrol -t 3",
-    "on-click-middle": "~/.config/hypr/hyprland/scripts/barify v m",
-    "on-scroll-up": "~/.config/hypr/hyprland/scripts/barify v i",
-    "on-scroll-down": "~/.config/hypr/hyprland/scripts/barify v d",
+    "on-click-middle": "swayosd-client --output-volume mute-toggle",
+    "on-scroll-up": "swayosd-client --output-volume raise",
+    "on-scroll-down": "swayosd-client --output-volume lower",
     "tooltip": false,
   },
   "bluetooth": {
