@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+trap "pkill -P $$" EXIT
+
+pw-loopback --capture-props='node.target="bluez_output.F4:9D:8A:49:9D:36.1"' --playback-props='media.class=Audio/Source node.name=virtmic node.description="VirtualMic"'
