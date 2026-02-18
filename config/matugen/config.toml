@@ -68,3 +68,8 @@ output_path = '~/.config/yazi/theme.toml'
 input_path = '~/.config/matugen/templates/spicetify-comfy.ini'
 output_path = '~/.config/spicetify/Themes/Comfy/color.ini'
 post_hook = 'sh ~/.config/matugen/hooks/spicetify.sh'
+
+[templates.steam]
+input_path = '~/.config/matugen/templates/steam.css'
+output_path = '~/.config/AdwSteamGtk/custom.css'
+post_hook =  'adwaita-steam-gtk -i'
