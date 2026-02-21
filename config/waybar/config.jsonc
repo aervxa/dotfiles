@@ -3,10 +3,10 @@
   "height": 30,
   "spacing": 16, // Gaps between modules (4px)
   "layer": "top",
-  "margin-top": 8,
-  "margin-right": 8,
+  "margin-top": 0,
+  "margin-right": 0,
   "margin-bottom": 0,
-  "margin-left": 8,
+  "margin-left": 0,
   // Choose the order of the modules
   "modules-left": ["hyprland/window"],
   "modules-center": ["clock"],
