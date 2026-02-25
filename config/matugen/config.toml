@@ -73,3 +73,7 @@ post_hook = 'sh ~/.config/matugen/hooks/spicetify.sh'
 input_path = '~/.config/matugen/templates/steam.css'
 output_path = '~/.config/AdwSteamGtk/custom.css'
 post_hook =  'adwaita-steam-gtk -i'
+
+[templates.obs]
+input_path = '~/.config/matugen/templates/matugen.obt'
+output_path = '~/.config/obs-studio/themes/matugen.obt'
