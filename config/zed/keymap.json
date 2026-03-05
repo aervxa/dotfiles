@@ -34,5 +34,10 @@
     "bindings": {
       "alt-z": "workspace::ToggleCenteredLayout"
     }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-j": "terminal_panel::ToggleFocus"
+    }
   }
 ]
