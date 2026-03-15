@@ -7,6 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ssh_connections": [
+    {
+      "host": "localhost",
+      "username": "root",
+      "port": 2222,
+      "args": [],
+      "projects": []
+    }
+  ],
   "centered_layout": {
     "right_padding": 0.2,
     "left_padding": 0.2,
@@ -61,15 +70,4 @@
   "indent_guides": {
     "enabled": false,
   },
-  "ssh_connections": [
-    {
-      "host": "dev",
-      "args": [],
-      "projects": [
-        {
-          "paths": ["/root/projects/8ff/./"],
-        },
-      ],
-    },
-  ],
 }
