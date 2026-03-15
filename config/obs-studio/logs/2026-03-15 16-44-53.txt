@@ -1,0 +1,158 @@
+16:44:53.477: Platform: Wayland
+16:44:53.477: CPU Name: 12th Gen Intel(R) Core(TM) i5-12400F
+16:44:53.477: CPU Speed: 1627.653MHz
+16:44:53.478: Physical Cores: 6, Logical Cores: 12
+16:44:53.478: Physical Memory: 31948MB Total, 14686MB Free
+16:44:53.478: Kernel Version: Linux 6.19.8-arch1-1
+16:44:53.478: Distribution: "Arch Linux" Unknown
+16:44:53.478: Desktop Environment: Hyprland (Hyprland)
+16:44:53.478: Session Type: wayland
+16:44:53.479: Current Date/Time: 2026-03-15, 04:44:53 PM
+16:44:53.479: Browser Hardware Acceleration: true
+16:44:53.479: Qt Version: 6.10.2 (runtime), 6.10.2 (compiled)
+16:44:53.479: Portable mode: false
+16:44:53.523: OBS 32.1.0 (linux)
+16:44:53.523: ---------------------------------
+16:44:53.524: ---------------------------------
+16:44:53.524: audio settings reset:
+16:44:53.524: 	samples per sec: 48000
+16:44:53.524: 	speakers:        2
+16:44:53.524: 	max buffering:   960 milliseconds
+16:44:53.524: 	buffering type:  dynamically increasing
+16:44:53.525: ---------------------------------
+16:44:53.525: Initializing OpenGL...
+16:44:53.525: Using EGL/Wayland
+16:44:53.556: Initialized EGL 1.5
+16:44:53.567: Loading up OpenGL on adapter AMD AMD Radeon HD 7900 Series (radeonsi, tahiti, ACO, DRM 3.64, 6.19.8-arch1-1)
+16:44:53.568: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.0.2-arch1.1, shading language 4.60
+16:44:53.592: ---------------------------------
+16:44:53.592: video settings reset:
+16:44:53.592: 	base resolution:   1920x1080
+16:44:53.592: 	output resolution: 1920x1080
+16:44:53.592: 	downscale filter:  Bicubic
+16:44:53.592: 	fps:               60/1
+16:44:53.592: 	format:            NV12
+16:44:53.592: 	YUV mode:          Rec. 709/Partial
+16:44:53.592: NV12 texture support enabled
+16:44:53.592: P010 texture support not available
+16:44:53.594: Audio monitoring device:
+16:44:53.594: 	name: Default
+16:44:53.594: 	id: default
+16:44:53.594: ---------------------------------
+16:44:53.595: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:44:53.596: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:44:53.598: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:44:53.598: Failed to initialize module 'decklink.so'
+16:44:53.685: [pipewire] Available capture sources:
+16:44:53.685: [pipewire]     - Monitor source
+16:44:53.685: [pipewire]     - Window source
+16:44:53.690: v4l2loopback not installed, virtual camera not registered
+16:44:53.704: VAAPI: API version 1.23
+16:44:53.704: FFmpeg VAAPI H264 encoding supported
+16:44:53.707: FFmpeg VAAPI AV1 encoding not supported
+16:44:53.710: FFmpeg VAAPI HEVC encoding not supported
+16:44:53.713: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+16:44:53.713: 
+16:44:53.713: NVENC not supported
+16:44:53.713: Failed to initialize module 'obs-nvenc.so'
+16:44:53.733: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.2 | RPC Version: 1)
+16:44:53.733: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.10.2 | Qt version (run-time): 6.10.2
+16:44:53.733: [obs-websocket] [obs_module_load] Linked ASIO Version: 103600
+16:44:53.736: [obs-websocket] [obs_module_load] Module loaded.
+16:44:53.738: ---------------------------------
+16:44:53.738:   Loaded Modules:
+16:44:53.738:     text-freetype2.so
+16:44:53.738:     rtmp-services.so
+16:44:53.738:     obs-x264.so
+16:44:53.738:     obs-websocket.so
+16:44:53.738:     obs-webrtc.so
+16:44:53.738:     obs-vst.so
+16:44:53.738:     obs-transitions.so
+16:44:53.738:     obs-qsv11.so
+16:44:53.738:     obs-outputs.so
+16:44:53.738:     obs-libfdk.so
+16:44:53.738:     obs-filters.so
+16:44:53.738:     obs-ffmpeg.so
+16:44:53.738:     linux-v4l2.so
+16:44:53.738:     linux-pulseaudio.so
+16:44:53.738:     linux-pipewire.so
+16:44:53.738:     linux-jack.so
+16:44:53.738:     linux-capture.so
+16:44:53.738:     linux-alsa.so
+16:44:53.738:     image-source.so
+16:44:53.738:     frontend-tools.so
+16:44:53.738:     decklink-output-ui.so
+16:44:53.738:     decklink-captions.so
+16:44:53.738: ---------------------------------
+16:44:53.738: ---------------------------------
+16:44:53.738: Available Encoders:
+16:44:53.738:   Video Encoders:
+16:44:53.738: 	- ffmpeg_svt_av1 (SVT-AV1)
+16:44:53.738: 	- ffmpeg_aom_av1 (AOM AV1)
+16:44:53.738: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+16:44:53.738: 	- obs_x264 (x264)
+16:44:53.738:   Audio Encoders:
+16:44:53.738: 	- ffmpeg_aac (FFmpeg AAC)
+16:44:53.738: 	- ffmpeg_opus (FFmpeg Opus)
+16:44:53.738: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+16:44:53.738: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+16:44:53.738: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+16:44:53.738: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+16:44:53.738: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+16:44:53.738: 	- libfdk_aac (libfdk AAC)
+16:44:53.738: ==== Startup complete ===============================================
+16:44:53.784: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+16:44:53.784: All scene data cleared
+16:44:53.784: ------------------------------------------------
+16:44:53.796: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+16:44:53.796: Deduplication logic is being applied to all monitored sources.
+16:44:53.797: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.1) 15.0.0'
+16:44:53.798: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+16:44:53.798: pulse-input: Started recording from 'bluez_output.F4_9D_8A_49_9D_36.1.monitor' (default)
+16:44:53.799: [Loaded global audio device]: 'Desktop Audio'
+16:44:53.800: PipeWire initialized
+16:44:53.805: Switched to scene 'Scene'
+16:44:53.805: ------------------------------------------------
+16:44:53.805: Loaded scenes:
+16:44:53.805: - scene 'Scene':
+16:44:53.805:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+16:44:53.806: ------------------------------------------------
+16:44:53.847: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+16:44:53.847: Deduplication logic is being applied to all monitored sources.
+16:44:53.878: [pipewire] Screencast session created
+16:44:54.377: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+16:44:54.377: 
+16:44:55.440: [pipewire] Asking for monitor and window
+16:44:55.451: [pipewire] source selected, setting up screencast
+16:44:55.459: [pipewire] Server version: 1.6.1
+16:44:55.459: [pipewire] Library version: 1.6.1
+16:44:55.459: [pipewire] Header version: 1.6.1
+16:44:55.459: [pipewire] Created stream 0x55959456a580
+16:44:55.459: [pipewire] Stream 0x55959456a580 state: "connecting" (error: none)
+16:44:55.459: [pipewire] Playing stream 0x55959456a580
+16:44:55.460: [pipewire] Stream 0x55959456a580 state: "paused" (error: none)
+16:44:55.470: [pipewire] Negotiated format:
+16:44:55.470: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+16:44:55.470: [pipewire]     Modifier: 0x0
+16:44:55.470: [pipewire]     Size: 1920x1080
+16:44:55.470: [pipewire]     Framerate: 0/1
+16:44:55.470: [pipewire] Negotiated format:
+16:44:55.470: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+16:44:55.470: [pipewire]     Modifier: 0xffffffffffffff
+16:44:55.470: [pipewire]     Size: 1920x1080
+16:44:55.470: [pipewire]     Framerate: 0/1
+16:44:55.471: [pipewire] Stream 0x55959456a580 state: "streaming" (error: none)
+16:45:33.872: ==== Shutting down ==================================================
+16:45:33.880: pulse-input: Stopped recording from 'bluez_output.F4_9D_8A_49_9D_36.1.monitor'
+16:45:33.880: pulse-input: Got 1601 packets with 1921200 frames
+16:45:33.880: Deduplication logic stopped.
+16:45:33.881: [pipewire] Stream 0x55959456a580 state: "paused" (error: none)
+16:45:33.881: [pipewire] Stream 0x55959456a580 state: "unconnected" (error: none)
+16:45:33.909: All scene data cleared
+16:45:33.909: ------------------------------------------------
+16:45:33.915: Tried to call obs_frontend_remove_event_callback with no callbacks!
+16:45:33.952: [obs-websocket] [obs_module_unload] Shutting down...
+16:45:33.952: Tried to call obs_frontend_remove_event_callback with no callbacks!
+16:45:33.952: [obs-websocket] [obs_module_unload] Finished shutting down.
+16:45:33.960: [Scripting] Total detached callbacks: 0
+16:45:33.960: Freeing OBS context data
