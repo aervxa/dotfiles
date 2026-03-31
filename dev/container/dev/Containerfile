@@ -16,7 +16,7 @@ RUN --mount=type=secret,id=github_token \
     echo "https://aervxa:$(cat /run/secrets/github_token)@github.com" > /root/.git-credentials
 
 # Authorize host's public key for ssh connection
-COPY containers.pub /root/.ssh/authorized_keys
+COPY id_ed25519.pub /root/.ssh/authorized_keys
 # Generate ssh keys
 RUN ssh-keygen -A
 # Start 

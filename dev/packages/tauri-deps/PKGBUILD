@@ -1,0 +1,10 @@
+pkgname=tauri-deps
+pkgver=1.0
+pkgrel=1
+pkgdesc="\"Meta\" package for Tauri dependencies"
+arch=('any')
+depends=('webkit2gtk-4.1' 'base-devel' 'curl' 'wget' 'file' 'openssl' 'appmenu-gtk-module' 'libappindicator-gtk3' 'librsvg' 'xdotool')
+
+package() {
+  :
+}

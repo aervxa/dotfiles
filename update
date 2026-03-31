@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rsync -avR $HOME/./dev/container $HOME/./dev/packages .
+
 # Define the destination
 DOTFILES_CONFIG_DIR="$HOME/dotfiles/config"
 
