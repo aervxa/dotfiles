@@ -1,0 +1,23 @@
+FROM archlinux:latest
+
+# Install packages
+RUN pacman -Syu --noconfirm && \
+    pacman -S --noconfirm base-devel openssh git less grml-zsh-config mise nvim kitty-terminfo
+
+# Change shell to zsh
+RUN chsh -s /usr/bin/zsh
+
+# Activate mise
+RUN echo 'eval "$(mise activate zsh)"' >> /root/.zshrc
+
+# Setup git
+RUN git config --global credential.helper store
+RUN --mount=type=secret,id=github_token \
+    echo "https://aervxa:$(cat /run/secrets/github_token)@github.com" > /root/.git-credentials
+
+# Authorize host's public key for ssh connection
+COPY containers.pub /root/.ssh/authorized_keys
+# Generate ssh keys
+RUN ssh-keygen -A
+# Start 
+CMD ["/usr/sbin/sshd", "-D", "-p", "2222", "-e"]

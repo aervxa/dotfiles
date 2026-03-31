@@ -13,6 +13,33 @@
       "username": "root",
       "port": 2222,
       "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/root/projects/adonis-test/./"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "dev",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/root/projects/adonis-mono"
+          ]
+        },
+        {
+          "paths": [
+            "/root/projects/grid"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "dev-gui",
+      "args": [],
       "projects": []
     }
   ],
@@ -65,7 +92,7 @@
     "quick_actions": false,
   },
   "status_bar": {
-    "experimental.show": false,
+    "experimental.show": true,
   },
   "indent_guides": {
     "enabled": false,

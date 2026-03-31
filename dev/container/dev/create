@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+
+X=dev
+
+podman build --secret id=github_token,src=$HOME/dev/.github_token -t $X .
+podman run -d --name $X --hostname $X --net=host -v $HOME/dev/projects:/root/projects $X
