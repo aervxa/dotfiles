@@ -1,6 +1,5 @@
 [config.wallpaper]
-command = "awww"
-arguments = ["img", "--transition-type", "any"]
+command = "awww img --transition-type any {{ image }}"
 set = true
 
 # not working
@@ -54,7 +53,7 @@ post_hook = 'pkill -USR1 cava'
 
 [templates.vesktop]
 input_path = './templates/midnight-discord.css'
-output_path = '~/.config/vesktop/themes/midnight-discord.css'
+output_path = '~/.config/Vencord/themes/midnight-discord.css'
 
 [templates.zed]
 input_path = './templates/zed-colors.json'
