@@ -51,9 +51,9 @@ input_path = './templates/cava-colors.ini'
 output_path = '~/.config/cava/themes/matugen'
 post_hook = 'pkill -USR1 cava'
 
-[templates.vesktop]
-input_path = './templates/midnight-discord.css'
-output_path = '~/.config/Vencord/themes/midnight-discord.css'
+#[templates.vesktop]
+#input_path = './templates/midnight-discord.css'
+#output_path = '~/.config/Vencord/themes/midnight-discord.css'
 
 [templates.zed]
 input_path = './templates/zed-colors.json'
