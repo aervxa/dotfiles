@@ -24,7 +24,9 @@
   "clock": {
     "tooltip": true,
     "format": "{:%I:%M %p}",
-    "tooltip-format": "{:%I:%M %p}",
+    "format-alt": "{:%a %d %b}",
+    "tooltip-format": "{:%a %d %b %I:%M:%S %p}",
+    "interval": 1
   },
   "tray": {
     "icon-size": 16,
