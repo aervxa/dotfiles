@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
+    "default_profile": "write",
     "inline_assistant_model": {
       "provider": "google",
       "model": "gemini-3-flash-preview",
@@ -28,13 +29,27 @@
       "args": [],
       "projects": [
         {
-          "paths": ["/root/projects/grid"],
+          "paths": [
+            "/root/projects/grid"
+          ]
         },
         {
-          "paths": ["/root/projects/lepse"],
+          "paths": [
+            "/root/projects/lepse"
+          ]
         },
-      ],
-    },
+        {
+          "paths": [
+            "/root/projects/temp/lepse"
+          ]
+        },
+        {
+          "paths": [
+            "/root/projects/temp/lepse/./"
+          ]
+        }
+      ]
+    }
   ],
   "centered_layout": {
     "right_padding": 0.2,
