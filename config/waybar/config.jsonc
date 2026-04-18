@@ -16,6 +16,8 @@
     "pulseaudio",
     "bluetooth",
     "network",
+    "idle_inhibitor",
+    "custom/power",
   ],
   "hyprland/window": {
     "format": "{class}",
@@ -61,4 +63,23 @@
     "format-linked": "󰌘",
     "tooltip-format": "{essid}",
   },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰅶",
+      "deactivated": "󰾪"
+    }
+  },
+  "custom/power": {
+      "format": "⏻",
+      "tooltip": false,
+      "menu": "on-click",
+      "menu-file": "$HOME/.config/waybar/power_menu.xml", // Path to the menu layout
+      "menu-actions": {
+          "shutdown": "hyprshutdown",
+          "reboot": "systemctl reboot",
+          "logout": "hyprctl dispatch exit",
+          "lock": "hyprlock"
+      }
+  }
 }

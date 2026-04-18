@@ -9,15 +9,23 @@
 #waybar {
   background-color: @surface_translucent;
   color: @on_surface;
-  border-radius: 8px;
+}
+
+tooltip {
+  background-color: @surface_translucent;
+}
+
+tooltip label {
+  font-family: "Jetbrains Mono Nerd Font";
+  margin: -4px 0px;
+  padding: 0px 4px;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.8;
 }
 
 .modules-left {
   margin-left: 16px;
-}
-
-#clock {
-  background-color: transparent;
 }
 
 .modules-right {
@@ -25,7 +33,7 @@
 }
 
 #tray menu {
-  background-color: @surface;
+  background-color: @surface_translucent;
 }
 
 #custom-seperator {
@@ -33,3 +41,4 @@
   opacity: 0.4;
   color: @outline;
 }
+

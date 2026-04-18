@@ -1,17 +1,4 @@
 =========================
 Fcitx 5.1.19 -- Get Signal No.: 11
-Date: try "date -d @1775920517" if you are using GNU date ***
-ProcessID: 1301
-fcitx5(+0x14ce8) [0x55a664924ce8]
-/usr/lib/libc.so.6(+0x3e2d0) [0x7fa492c4d2d0]
-/usr/lib/libsystemd.so.0(+0x65f10) [0x7fa492b4af10]
-/usr/lib/libsystemd.so.0(sd_bus_slot_unref+0x29) [0x7fa492b4b579]
-/usr/lib/libFcitx5Utils.so.2(_ZN5fcitx4dbus16ObjectVTableBaseD1Ev+0x79) [0x7fa4932c9369]
-/usr/lib/fcitx5/libvirtualkeyboard.so(+0x7229) [0x7fa47ee64229]
-/usr/lib/fcitx5/libvirtualkeyboard.so(+0x73b5) [0x7fa47ee643b5]
-/usr/lib/libFcitx5Core.so.7(_ZN5fcitx12AddonManager6unloadEv+0x3b4) [0x7fa4933f6b04]
-/usr/lib/libFcitx5Core.so.7(_ZN5fcitx8InstanceD1Ev+0x42) [0x7fa4933b81c2]
-fcitx5(+0x12cb5) [0x55a664922cb5]
-/usr/lib/libc.so.6(+0x276c1) [0x7fa492c366c1]
-/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fa492c367f9]
-fcitx5(+0x14095) [0x55a664924095]
+Date: try "date -d @1776400565" if you are using GNU date ***
+ProcessID: 134498
