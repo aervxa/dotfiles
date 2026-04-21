@@ -54,6 +54,7 @@
     "format-disabled": "󰂲",
     "tooltip-format-connected": "{device_alias}",
     "on-click": "blueman-manager",
+    "on-click-middle": "systemctl restart bluetooth",
   },
   "network": {
     "format-wifi": "{icon}",

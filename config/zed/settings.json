@@ -38,16 +38,6 @@
             "/root/projects/lepse"
           ]
         },
-        {
-          "paths": [
-            "/root/projects/temp/lepse"
-          ]
-        },
-        {
-          "paths": [
-            "/root/projects/temp/lepse/./"
-          ]
-        }
       ]
     }
   ],
