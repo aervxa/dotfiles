@@ -54,6 +54,7 @@
   },
   "widgets": [
     "inhibitors",
+    "mpris",
     "title",
     "dnd",
     "notifications"

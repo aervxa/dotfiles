@@ -7,7 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inlay_hints": {
+    "show_parameter_hints": true,
+    "show_background": false,
+    "show_value_hints": true,
+    "enabled": false
+  },
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "tree_view": true,
+    "dock": "left"
+  },
   "agent": {
+    "dock": "right",
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "google",
@@ -38,6 +56,11 @@
             "/root/projects/lepse"
           ]
         },
+        {
+          "paths": [
+            "/root/projects/rwsdk-test"
+          ]
+        }
       ]
     }
   ],
@@ -48,17 +71,20 @@
   "tab_size": 2,
   "base_keymap": "VSCode",
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "Catppuccin Latte (Blur)",
     "dark": "Catppuccin Espresso (Blur)",
   },
   "icon_theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "Warm Charmed Icons",
     "dark": "Warm Charmed Icons",
   },
   "scrollbar": {
-    "show": "never",
+    "axes": {
+      "horizontal": false
+    },
+    "show": "auto",
   },
   "soft_wrap": "editor_width",
   "buffer_font_size": 13.0,

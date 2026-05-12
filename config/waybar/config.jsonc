@@ -8,7 +8,7 @@
   "margin-bottom": 0,
   "margin-left": 0,
   // Choose the order of the modules
-  "modules-left": ["hyprland/window"],
+  "modules-left": ["hyprland/workspaces", "custom/seperator", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
     "tray",
@@ -19,6 +19,9 @@
     "idle_inhibitor",
     "custom/power",
   ],
+  "hyprland/workspaces": {
+    "active-only": true,
+  },
   "hyprland/window": {
     "format": "{class}",
     "separate-outputs": true,
@@ -42,7 +45,8 @@
     "format-muted": "",
     "format-icons": ["", "", "", "", ""],
     "on-click": "pavucontrol -t 3",
-    "on-click-middle": "swayosd-client --output-volume mute-toggle",
+    "on-click-right": "swayosd-client --output-volume mute-toggle",
+    "on-click-middle": "pkill swayosd-server; swayosd-server &",
     "on-scroll-up": "swayosd-client --output-volume raise",
     "on-scroll-down": "swayosd-client --output-volume lower",
     "tooltip": false,
@@ -77,8 +81,9 @@
       "menu": "on-click",
       "menu-file": "$HOME/.config/waybar/power_menu.xml", // Path to the menu layout
       "menu-actions": {
-          "shutdown": "hyprshutdown",
-          "reboot": "systemctl reboot",
+          "shutdown": "hyprshutdown -t 'Shutting down...' --post-cmd 'shutdown -P 0'",
+          "reboot": "hyprshutdown -t 'Restarting...' --post-cmd 'reboot'",
+	  "suspend": "systemctl suspend",
           "logout": "hyprctl dispatch exit",
           "lock": "hyprlock"
       }

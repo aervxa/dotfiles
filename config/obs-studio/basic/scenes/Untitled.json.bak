@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936448,
+        "prev_ver": 536936450,
         "name": "Desktop Audio",
         "uuid": "fa7dfa69-40b1-4e76-98ed-6023f4614699",
         "id": "pulse_output_capture",
@@ -33,7 +33,7 @@
     },
     "sources": [
         {
-            "prev_ver": 536936448,
+            "prev_ver": 536936450,
             "name": "Screen Capture (PipeWire)",
             "uuid": "a1c38a0a-4a60-46d5-98e1-2865ccfb1566",
             "id": "pipewire-screen-capture-source",
@@ -60,7 +60,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936448,
+            "prev_ver": 536936450,
             "name": "Scene",
             "uuid": "17ffc99a-bcbe-4e3d-b64b-b08c823667f9",
             "id": "scene",
@@ -187,7 +187,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -14,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
@@ -203,6 +203,10 @@
             "autoStartRecordTimer": false,
             "pauseRecordTimer": true
         }
+    },
+    "resolution": {
+        "x": 1920,
+        "y": 1080
     },
     "version": 2
 }
