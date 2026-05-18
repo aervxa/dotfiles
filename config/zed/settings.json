@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "tab_size": 2,
   "inlay_hints": {
     "show_parameter_hints": true,
     "show_background": false,
@@ -68,7 +69,6 @@
     "right_padding": 0.2,
     "left_padding": 0.2,
   },
-  "tab_size": 2,
   "base_keymap": "VSCode",
   "theme": {
     "mode": "dark",
@@ -129,5 +129,9 @@
         "!vscode-css-language-server",
       ],
     },
+    "Rust": {
+      "tab_size": 2,
+      "formatter": "language_server",
+    }
   },
 }
